@@ -323,7 +323,7 @@ export default {
             setTimeout(() => {
               console.log(this.fetchTry);
               this.fetchPlans();
-            }, 300000);
+            }, 180000);
           }
         }
       } catch (err) {
@@ -331,7 +331,7 @@ export default {
           setTimeout(() => {
             console.log(this.fetchTry);
             this.fetchPlans();
-          }, 300000);
+          }, 180000);
         }
       }
     },
