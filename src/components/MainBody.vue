@@ -321,7 +321,6 @@ export default {
         } else {
           if (this.fetchTry < 5) {
             setTimeout(() => {
-              console.log(this.fetchTry);
               this.fetchPlans();
             }, 180000);
           }
